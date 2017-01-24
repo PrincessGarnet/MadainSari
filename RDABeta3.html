@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+
+<!---Colour Scheme
+
+#9CFFFA paleturquoise
+#EECFD4 gainsboro
+#518B2A olivedrab
+#B0B2B8 darkgray
+#BFD2BF silver--->
+
+<html lang="en">
+
+<head>
+	<title>RDA Cranleigh - Sponsored Ride</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="RDAComplimentary.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+	<!---Navigation--->
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+				<a class="navbar-brand" href="#">RDA Cranleigh</a>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="RDABetaHome.html">Home</a></li>
+					<li><a href="RDABetaC.html">Contact</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">The Sponsored Ride<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="RDABetaTSR.html">Information</a></li>
+							<li role="separator" class="divider"></li>
+							<li class="dropdown-header">Sign Up</li>
+							<li><a href="RDABeta11.html">11 Mile</a></li>
+							<li class="active"><a href="RDABeta3.html">3 Mile</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+		<!--/.container-fluid -->
+	</nav>
+
+	<!---Title--->
+	<div class="container text-center">
+		<div class="jumbotron">
+			<h1>3 Mile Ride Sign Up</h1>
+		</div>
+	</div>
+
+	<!---form start--->
+
+	<form>
+		<div class="container">
+			<div class="col-xs-4 col-xs-offset-4 centered">
+				<div class="form-group">
+					<h2 class="text-primary text-center"><b>Personal Information</b></h2><br>
+					<div class="form-group">
+						<label for="rider-name">Rider's Name</label>
+						<input class="form-control" id="rider-name" type="name">
+					</div>
+					<div class="form-group">
+						<label for="age">Age</label>
+						<input class="form-control" id="age" type="date">
+					</div>
+					<div class="form-group">
+						<label for="phone-number">Phone Number</label>
+						<input class="form-control" id="phone-number" type="number">
+					</div>
+					<div class="form-group">
+						<label for="horse-name">Horse's Name</label>
+						<input class="form-control" id="horse-name" type="name">
+					</div>
+					<div class="form-group">
+						<label for="email">Email Address</label>
+						<input class="form-control" id="email" type="email">
+					</div>
+					<div class="form-group">
+						<label for="999-name">Emergency Contact Name</label>
+						<input class="form-control" id="999-name" type="name">
+					</div>
+					<div class="form-group">
+						<label for="999-phone-number">Emergency Contact Number</label>
+						<input class="form-control" id="999-phone-number" type="number">
+					</div>
+				</div><br>
+				<div class="form-group">
+					<h2 class="text-primary text-center"><b>Ride Details</b></h2><br>
+					<div class="form-group">
+						<label for="escort-name">On-foot Escort Name:</label>
+						<input class="form-control" id="escort-name" type="name">
+					</div>
+					<div class="form-group">
+						<label for="escort-number">On-foot Mobile Number:</label>
+						<input class="form-control" id="escort-number" type="number">
+					</div>
+					<div class="form-group">
+						<label for="start-time">Preferred Start Time (9:30-14:00)</label>
+						<input class="form-control" id="start-time" type="time" min="09:30" max="14:00">
+					</div>
+					<div class="form-group">
+						<label for="friends-name">Friends You Wish To Ride With</label>
+						<input class="form-control" id="friends-name" type="name">
+					</div>
+					<div class="form-group">
+						<label for="number">Transporting To Starting Point (so we can manage parking)</label>
+						<div class="radio">
+							<label><input type="radio" name="hacking">Hacking</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="transport-alone">Transport Alone</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="transport-shared">Transport Shared</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="horsebox">Horsebox</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="trailer">Trailer</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Where did you hear about our sponsored ride?</label>
+						<div class="radio">
+							<label><input type="radio" name="rode-last-year">Rode last year</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="word-o-mouth">Word of mouth</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="se-rider">SE Rider</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="nagmag">Nagmag</label>
+						</div>
+						<div class="radio">
+							<label>
+									<input type="radio" name="local-rider">Local Rider
+								</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="riding-diary">Riding Diary</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="cran-rda-website">Cranleigh RDA Website</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="other">Other</label>
+						</div>
+						<div class="form-group">
+							<input class="form-control" id="other-box" type="text">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<h2 class="text-primary text-center"><b>Sponsorship Details</b></h2><br>
+					<div class="form-group">
+						<label for="number">Funds raised (£)</label>
+						<div class="radio">
+							<label><input type="radio" name="35-pounds">£25 (Minimum)</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="50-pounds">£50</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="more">More</label>
+						</div>
+						<div class="form-group">
+							<input class="form-control" id="more-box" type="number">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="gift-aid">How did you donate?</label>
+						<div class="radio">
+							<label><input type="radio" name="gift-aid">Gift Aid</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="cheque">Cheque</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="bacs">BACS (please confirm payment date)</label>
+						</div>
+						<div class="form-group">
+							<input class="form-control" id="payment-date" type="date" min="0/0/2017">
+						</div>
+					</div>
+					<label><i>If the Donor is not the rider, and has ticked the GiftAid box, please confirm:</i></label><br>
+					<div class="form-group">
+						<label for="donor-name">Donor name</label>
+						<input class="form-control" id="donor-name" type="name">
+					</div>
+					<div class="form-group">
+						<label for="donor-address">Donor Address</label>
+						<textarea class="form-control" rows="4" id="donor-address"></textarea>
+					</div>
+					<div class="well">
+						<p>If you'd like to print out a form to send in <a href="Gift%20Aid%20Form.doc">click here</a>, otherwise send your cheques to:<br /></p>
+						<p class='text-warning'>Jan Butcher,<br> Cherry Villa,<br> High Street,<br> Lozwood,<br> W.Sussex.<br> RH14 0RD</p>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" class="btn btn-info" value="Submit">
+				</div>
+				<!---col end--->
+			</div>
+			<!---container end--->
+	</form>
+	<!---Form--->
+
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="col-sm-12 text-center">
+				<div class="row">
+					<h5>Thank you from all the riders, staff, volunteers and ponies at Cranleigh RDA Group!</h5>
+				</div>
+				<div class="row">
+					<div class="col-sm-4">
+						<p class="text-muted"><b>Cranleigh Riding for the Disabled Association Group</b></p>
+					</div>
+					<div class="col-sm-4 text-center">
+						<p class="text-muted">Website by<br>
+							<img id="tychologo" src="Tychologo.png" alt="Tycho Logo"></p>
+					</div>
+					<div class="col-sm-4">
+						Charity No: 1125242<br> Company Reg No: 06603028.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>
+<!---
+
+</body>
+</html>
